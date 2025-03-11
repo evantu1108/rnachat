@@ -1,0 +1,14 @@
+
+===================================BUG REPORT===================================
+Welcome to bitsandbytes. For bug reports, please submit your error trace to: https://github.com/TimDettmers/bitsandbytes/issues
+================================================================================
+Initializing Chat
+| distributed init (rank 0, world 1): env://
+Loading RNA encoder
+Loading LLAMA model
+Start Low Resource Mode
+/home/jovyan/ProteinChat
+Load GLM and LP Checkpoint: data/checkpoint_4.pth
+Load LoRA Checkpoint: data/checkpoint_1.pth
+Initialization Finished
+Conversation(system='Give the following RNA: <RNA>rnaContent</RNA>. Please answer my questions.', roles=('Human', 'Assistant'), messages=[['Human', '<RNA><RNAHere></RNA> ###Human: Give me a functional description of this RNA named  RCAN3AS. ###Assistant:']], offset=2, sep_style=<SeparatorStyle.SINGLE: 1>, sep='###', sep2=None, skip_next=False, conv_id=None)
